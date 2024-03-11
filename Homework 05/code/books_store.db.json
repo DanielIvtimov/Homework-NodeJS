@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "bookTitle": "Crime and Punishment",
+    "isAvailable": true,
+    "genre": "Novel",
+    "author": "Fyodor Dostoevsky",
+    "pages": 500
+  },
+  {
+    "id": "2",
+    "bookTitle": "The Master and Margarita",
+    "isAvailable": false,
+    "genre": "Magical realism",
+    "author": "Mikhail Bulgakov",
+    "pages": 400
+  },
+  {
+    "id": "3",
+    "bookTitle": "War and Peace",
+    "isAvailable": true,
+    "genre": "Historical novel",
+    "author": "Leo Tolstoy",
+    "pages": 800
+  },
+  {
+    "id": "4",
+    "bookTitle": "To Kill a Mockingbird",
+    "isAvailable": true,
+    "genre": "Fiction",
+    "author": "Harper Lee",
+    "pages": 281
+  },
+  {
+    "id": "5",
+    "bookTitle": "1984",
+    "isAvailable": true,
+    "genre": "Dystopian",
+    "author": "George Orwell",
+    "pages": 328
+  },
+  {
+    "id": 1710122392612,
+    "bookTitle": "Lord of the rings",
+    "isAvailable": true,
+    "genre": "fantasy",
+    "author": "John Ronald Reuel Tolkien",
+    "pages": 800
+  }
+]
