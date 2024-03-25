@@ -1,0 +1,18 @@
+[
+  {
+    "id": "4106a369-0f71-4893-9e74-36ae4e5f24fa",
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice@example.com",
+    "hashedPassword": "$2a$10$PMZrB06/9RW32efIpCALCeLcKeUIvDq1qJ5bi4T3MQUi51z9TSC6m",
+    "permission": "admin"
+  },
+  {
+    "id": "94f1ccba-fb96-482d-8acb-9084b34fd375",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@example.com",
+    "hashedPassword": "$2a$10$rEJrL6KSaQiCcyafujSQwO40ZnY/wwkTGaczYUWv8p0T60pzYXhma",
+    "permission": "user"
+  }
+]
