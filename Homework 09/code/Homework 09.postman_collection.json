@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "d653c230-fe1b-430a-a134-32a22eeb3fb4",
+		"name": "Homework 09",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33509805"
+	},
+	"item": [
+		{
+			"name": "Create Recipe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"recipeName\": \"Македонска Мусака (Macedonian Moussaka)\",\r\n    \"description\": \"Macedonian Moussaka is a traditional dish made from layers of potato, minced meat, and tomato sauce, topped with a creamy yogurt and egg mixture.\",\r\n    \"cookingDuration\": \"1.5 hours\",\r\n    \"ingredients\": [\"potatoes\", \"minced meat\", \"tomato sauce\", \"onions\", \"garlic\", \"yogurt\", \"eggs\", \"flour\", \"butter\", \"milk\", \"salt\", \"pepper\", \"nutmeg\"],\r\n    \"servings\": 8,\r\n    \"difficulty\": \"MEDIUM\",\r\n    \"cuisine\": \"Macedonian\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/create",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "See all recipe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/recipes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"recipes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get recipe by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/recipes/660cabffe60978f0c04be7ed",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"recipes",
+						"660cabffe60978f0c04be7ed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete recipe by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/recipes/660cc7a05fd411b75076b199",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"recipes",
+						"660cc7a05fd411b75076b199"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update recipe by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"recipeName\": \"Македонска Мусака (Macedonian Moussaka)\",\r\n    \"description\": \"Macedonian Moussaka is a traditional dish made from layers of potato, minced meat, and tomato sauce, topped with a creamy yogurt and egg mixture.\",\r\n    \"cookingDuration\": \"1.5 hours\",\r\n    \"ingredients\": [\"potatoes\", \"minced meat\", \"tomato sauce\", \"onions\", \"garlic\", \"yogurt\", \"eggs\", \"flour\", \"butter\", \"milk\", \"salt\", \"pepper\", \"nutmeg\"],\r\n    \"servings\": 8,\r\n    \"difficulty\": \"EASY\",\r\n    \"cuisine\": \"Macedonian\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/recipes/660cabe7e60978f0c04be7eb",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"recipes",
+						"660cabe7e60978f0c04be7eb"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
